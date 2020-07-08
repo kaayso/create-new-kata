@@ -5,7 +5,7 @@ CLI to clone automatically clone [kata-template](https://github.com/kaayso/kata-
 Install CLI globally
 
 ```
-npm -g create-new-kata
+npm install -g create-new-kata
 ```
 
 ## Usage
