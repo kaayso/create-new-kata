@@ -11,7 +11,7 @@ npm install -g create-new-kata
 ## Usage
 
 ```
-create-new-kata name-of-kata
+create-new-kata <kata-name>
 ```
 
 This will create a directory with the given name, clone the kata-template repo into it, and install dependencies.
