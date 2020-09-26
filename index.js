@@ -18,12 +18,12 @@ runCommand('git', ['clone', repoURL, name])
   }).then(() => {
     console.log('Done! 🥳');
     console.log('');
-    console.log('To get started 🚀');
-    console.log('cd', name);
-    console.log('npm run script');
-    console.log();
-    console.log('Unit tests ✅');
-    console.log('npm run test ');
+    console.log('🚀 Get started');
+    console.log('--> cd', name);
+    console.log('--> npm run script');
+    console.log('');
+    console.log('✅ Unit testing');
+    console.log('--> npm run test ');
   });
 
 function runCommand(command, args, options = undefined) {
