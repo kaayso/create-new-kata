@@ -1,6 +1,8 @@
 #! /usr/bin/env node
 
-const { spawn } = require('child_process');
+const {
+  spawn
+} = require('child_process');
 
 const name = process.argv[2];
 const repoURL = 'https://github.com/kaayso/kata-template';
@@ -14,11 +16,14 @@ runCommand('git', ['clone', repoURL, name])
       cwd: process.cwd() + '/' + name
     });
   }).then(() => {
-    console.log('Done! ✅');
+    console.log('Done! 🥳');
     console.log('');
-    console.log('To get started:');
+    console.log('To get started 🚀');
     console.log('cd', name);
-    console.log('npm run dev');
+    console.log('npm run script');
+    console.log();
+    console.log('Unit tests ✅');
+    console.log('npm run test ');
   });
 
 function runCommand(command, args, options = undefined) {
